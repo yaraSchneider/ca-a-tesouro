@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caça ao Tesouro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Caça ao Tesouro</h1>
+  <p id="status">Clique em "Iniciar Jogo" para começar a busca pelo tesouro!</p>
+  <p id="score">Pontuação: 0</p>
+  <p id="total-score">Pontuação Total: 0</p>
+  <p id="history">Histórico de Pontuações: Nenhum jogo ainda</p>
+
+  <!-- Botão para iniciar o jogo -->
+  <button id="start-btn">Iniciar Jogo</button>
+  
+  <!-- Grade onde o jogo será exibido -->
+  <div id="grid"></div>
+
+  <!-- Modal para o tesouro encontrado -->
+  <div id="treasure-modal">
+    <div class="modal-content">
+      <p>Parabéns! Você encontrou o tesouro!</p>
+      <button id="close-modal">Fechar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
